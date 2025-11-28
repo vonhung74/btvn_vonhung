@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"type="image/x-icon" href="./favicon/favicon.ico">
+    <title>Buổi 4 HTML</title>
+<style>
+    table{
+        /* border-collapse:separate; */
+        border-collapse:collapse;
+        border: 2px solid rgb(193, 181, 9);
+        }
+    
+        tr,th,td {
+        border:2px solid rgb(193, 181, 9);
+        /* tạo khoảng cách dữ liệu trong ô */
+        padding:2px;
+        border-radius: 4px;
+        text-align: center;
+        }
+        th{
+        text-align: center;
+        color:aliceblue;
+        background-color: rgb(199, 16, 16);
+        }
+</style>
+
+</head>
+<body>
+
+    <h2 id="BTS">BTS</h2>
+  <img src="BTS.jpg" alt="Ảnh BTS" title="Đây là hình ảnh BTS" width="500px" height="250px">
+ <table>
+    <caption>Chương trình học</caption>
+    <tr>
+        <th rowspan="2">Nhóm học phần</th>
+        <th rowspan="2">Môn học</th>
+        <th colspan="2">Số tiết</th>
+    </tr>
+    <tr>
+        <th>Lý thuyết</th>
+        <th>Thực hành</th>
+    </tr>
+    <tr>
+        <td rowspan="6" style="color:crimson">I.<br>Tin học văn phòng</td>
+        <td>Hệ điều hành Windows</td>
+        <td>3</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Sử dụng Internet</td>
+        <td>3</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Soạn thảo văn bản</td>
+        <td>24</td>
+        <td>40</td>
+    </tr>
+    <tr>
+        <td>Tạo bài trình duyệt</td>
+        <td>9</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Xử lý số liệu</td>
+        <td>24</td>
+        <td>40</td>
+    </tr>
+    <tr>
+        <td>Tạo trang web</td>
+         <td>9</td>
+        <td>15</td>
+   </tr>
+   <tr>
+    <td rowspan="2" style="color:crimson;">II.<br>Kỹ thuật lập trình (VB.NET)</td>
+    <td>Nhập môn lập trình</td>
+    <td>36</td>
+    <td>60</td>
+   </tr>
+   <tr>
+    <td>Kỹ thuật lập trình</td>
+    <td>36</td>
+    <td>60</td>
+   </tr>
+   <tr>
+    <td colspan="4">.........</td>
+   </tr>
+ </table>
+</body>
+</html>

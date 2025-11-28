@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+      background-color:burlywood;
+      line-height: 0,5cm;
+    }
+    form{
+      margin:auto;
+    }
+    label{
+      text-align: left;
+    }
+    </style>
+</head>
+<body>
+    <h2 style="background-color: aquamarine;">ĐĂNG KÝ THÀNH VIÊN</h2>
+   <form action="/action_page.php" target="_self" method="post">
+     <div>
+      <label for="Hovaten">Họ và tên</label>
+      <input type="text" id="Hovaten" name="Hovaten">
+    </div>
+    <br>
+    <div>
+      <label for="ngayinh">Ngày sinh</label>
+      <input type="text" id="ngaysinh" name="ngaysinh">
+    </div>
+   <br>
+    <div>
+     <label for="Gioitinh">Giới tính</label>
+     <input type="radio" id="nam" value="Nam" name="title">
+     <label for="nam">Nam</label>
+     <input type="radio" id="nu" value="Nữ" name="title">
+     <label for="nu">Nữ</label>
+    </div>
+    <br>
+    <div>
+     <label for="Address">Địa chỉ</label>
+     <input type="text" id="Address" name="Địa chỉ" style="padding:10px">
+    </div>
+    <br>
+    <div>
+     <label for="Lop">Lớp</label>
+     <select id="Lop" name="Lớp">
+      <option value="chonlop">Chọn lớp</option>
+      <option value="K61S1">K61S1</option>
+      <option value="K61S2">K61S2</option>
+      <option value="K61S3">K61S3</option>
+      <option value="K61S4">K61S4</option>
+     </select>
+    </div>
+    <div>
+     <label for="email">Email</label>
+     <input type="text" id="email" name="Email" required>
+    </div>
+    <br>
+    <div>
+     <label for="dthoai">Điện thoại</label>
+     <input type="text" id="dthoai" name="Điện thoại" required>
+    </div>
+    <br>
+    <div>
+     <input type="submit" value="Đăng ký">
+     <input type="reset" formaction="/action_page2.php" value="Nhập lại">
+    </div>
+    </form>
+</body>
+</html>
